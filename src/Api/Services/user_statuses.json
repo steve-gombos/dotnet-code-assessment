@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "isComplete": true,
+      "isActive": true
+    },
+    {
+      "userId": 3,
+      "isComplete": false,
+      "isActive": false
+    }
+  ]
+}

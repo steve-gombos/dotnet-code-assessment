@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "jetbrains.resharper.globaltools": {
+      "version": "2024.1.5",
+      "commands": [
+        "jb"
+      ]
+    },
+    "run-script": {
+      "version": "0.6.0",
+      "commands": [
+        "r"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sdk": {
+    "version": "8.0.0",
+    "rollForward": "latestMajor",
+    "allowPrerelease": true
+  },
+  "scripts": {
+    "lint": "dotnet r lint:solution && dotnet r lint:projects",
+    "lint:solution": "dotnet jb cleanupcode Assessment.sln --exclude=./dist/**",
+    "lint:projects": "powershell scripts/cleanup-projects.ps1"
+  }
+}
